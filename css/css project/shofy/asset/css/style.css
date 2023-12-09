@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/* common css */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    max-width: 1150px;
+    margin: auto;
+}
+/* header start */
+.bg-top-color{
+    background-color: black;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 5px 0px;
+}
+.topbar-text p{
+    color:white;
+}
+.top-select{
+    display: flex;
+}
+
+/* navigationbar start */
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.user-image{
+height: 50px;
+width: 50px;
+border-radius: 100%;
+border: 2px solid gray;
+display: flex;
+align-items: center;
+justify-content:center;
+}
+
+.user-image i{
+    font-size: 25px ;
+    color:gray;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+}
+.user-text{
+    margin-left: 10px;
+}
+.search-input{
+    border:2px solid #0989ff;
+    display: flex;
+    align-items: center;
+}
+.text-input input{
+    border:0;
+}
+.text-input:focus-within input{
+    border:0;
+    outline: none;
+}
+.navi-select select{
+    border:0;
+}
+.search-icon{
+    background-color:#0989ff ;
+    padding: 10px 20px;
+}
+
+/*ADS*/
+.back {
+    height: 600px;
+    padding-top: 50px;
+    background-color: #115061;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.tex1 {
+    font-size: 30px;
+}
+
+.bold-1 {
+    font-size: 80px;
+}
+
+.teax1 {
+    font-size: 30px;
+}
+
+.design 
+{
+    margin-left: 120px;
+}
+
+.color{
+    color: yellow;
+}
+
+.pic {
+    margin-top: -450px;
+    margin-left: 800px;
+}
+
+.tp-slider-btn .tp-btn {
+    animation-delay: .9s;
+    animation-duration: 1s;
+    border: 1px solid var(--tp-common-white);
+}
+
+.tp-btn-white {
+    color: black;
+    padding: 9px 29px;
+    background-color: white;
+    border-radius: 5px; 
+    position: absolute;
+    margin-top: 30px;
+}
+/*Head fon card*/
+.head {
+    padding-top: 30px;
+}
+
+.cont1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.round
+{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(203, 242, 249);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2 {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.banner-part{
+    display: flex;
+}
+
+.box-1:hover .round img{
+transform: scale(1.1);
+transition:1s;
+}
+
+.items-2:hover {
+    color: rgb(6, 146, 234);
+}
+
+.items-2 {
+     font-size: 25px;
+     text-align: center;
+     padding-top: 20px;
+}
+
+.items-3 {
+    /* margin-left: 60px; */
+    text-align: center;
+    color: #55585B;
+}
+
+
+
+/*Free Delivary*/
+.BOXX{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+/*selection part*/
+.bar {
+    display: flex;
+    justify-content: space-between;
+}
+.category{
+    border-top:1px solid gray;
+    margin-top: 30px;
+}
+
+.nav-item{
+    display: flex;
+}
+
+.nav-item li{
+    margin: 0;
+}
+
+.nav-item li:not(.select-cate){
+    margin-left: 25px;
+}
+
+
+.tel{
+    display: flex;
+    align-items: center;
+}
+/* Hover Effect in Card View*/
+
+.maincard{
+    display: flex;
+}
+.card{
+    height:auto;
+    min-width:250px;
+    border:1px solid gray;
+    margin: 50px;
+    overflow: hidden;
+}
+.card-image img{
+    object-fit: cover;
+}
+
+.card-image:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.card-image{
+    position: relative;
+    
+}
+
+.hover-open-content{
+    display: none;   
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    transition: 1.5s;
+}
+
+.card-image:hover .hover-open-content{
+    display: block;
+    transform: translate(30px);
+}
+
+
+.card-text{
+    padding: 20px;
+    border-top:1px solid gray
+}

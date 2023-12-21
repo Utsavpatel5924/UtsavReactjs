@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal-1</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Modal-1  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-info">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Product in the card</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body d-flex">
+            <img src="./cart-fill.svg"  class="rounded mx-auto d-block" height="200px" width="200px">
+            <div>
+                <p class="fs-4">Do you need more time to make a purchase decision?</p>
+                <p class="fs-4">No pressure, your product will be waiting for you in the cart.</p>
+
+            </div>
+        </div>
+        <div class="modal-footer d-flex justify-content-center">
+          <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Cancle</button>
+          <button type="button" class="btn btn-info">Go to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

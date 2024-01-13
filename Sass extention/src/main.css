@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 100px;
+}
+
+.box-1 {
+  border: 2px solid black;
+  padding: 35px 15px;
+  text-align: center;
+  margin: 0 15px;
+  border-radius: 5px;
+}
+
+.box {
+  border: 2px solid rgb(255, 89, 116);
+  background-color: rgb(255, 89, 116);
+  color: white;
+}
+
+.box-1 span i {
+  font-size: 60px;
+}
+
+.box-1 p {
+  line-height: 20px;
+}
+
+.box-1 a {
+  text-decoration: none;
+  width: 250px;
+  background-color: black;
+  color: white;
+  display: block;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 25px auto;
+}
+
+.box a {
+  color: rgb(255, 89, 116);
+  background-color: white;
+}/*# sourceMappingURL=main.css.map */

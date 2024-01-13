@@ -198,6 +198,7 @@ transition:1s;
 .bar {
     display: flex;
     justify-content: space-between;
+    
 }
 .category{
     border-top:1px solid gray;
@@ -220,18 +221,21 @@ transition:1s;
 .tel{
     display: flex;
     align-items: center;
+    
 }
 /* Hover Effect in Card View*/
 
 .maincard{
     display: flex;
+    flex-wrap: wrap;
+
 }
 .card{
     height:auto;
     min-width:250px;
     border:1px solid gray;
     margin: 50px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .card-image img{
     object-fit: cover;
@@ -263,4 +267,4 @@ transition:1s;
 .card-text{
     padding: 20px;
     border-top:1px solid gray
-}
+} 

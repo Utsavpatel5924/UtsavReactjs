@@ -64,14 +64,14 @@
 }//
 
 //7
-{
-    let a,b=5;
-    let c=0;
-    for(a=-b;a<=b;a++){
-       console.log(a);
-    }
+// {
+//     let a,b=5;
+//     let c=0;
+//     for(a=-b;a<=b;a++){
+//        console.log(a);
+//     }
 
-}
+// }
 
 
 //9

@@ -34,33 +34,33 @@
 }
 //5
 {
-    // let a = 0;
-    // let b = 1;
-    // let c = 10;
-    // let n = 10;
-    // let i = 1;
-    // while (i <= n) {
-    //     i++;
-    //     if (i == 1) {
-    //         console.log(b);
-    //     } else {
-    //         c = a + b;
-    //         console.log(c);
-    //         a = b;
-    //         b = c;
-    //     }
-    // }
+    //  let a = 0;
+    //  let b = 1;
+    //  let c = 10;
+    //  let n = 10;
+    //  let i = 1;
+    //  while (i <= n) {
+    //      i++;
+    //      if (i == 1) {
+    //          console.log(b);
+    //      } else {
+    //          c = a + b;
+    //          console.log(a);
+    //          a = b;
+    //          b = c;
+    //      }
+    //  }
 }
 //6
 {
-    //let a=5;
-    //let n=1;
-    // while (a>=1) {
-    //    n=a*n;
-    //     console.log(a);
-    //     a--;
-    // }
-    // console.log(n);
+    let a=5;
+    let n=1;
+    while (a>=1) {
+       n=a*n;
+        console.log(a);
+        a--;
+    }
+    console.log("ans=",n);
 }//
 
 //7
@@ -76,16 +76,16 @@
 
 //9
 {
-    let a=1,b=1;
-    while (a<=5) {
-        b=1;
-        while (b<=a) {
-            document.write(a);
-            b++;
-        }
-        document.write("<br>");
-        a++;
-    }
+    // let a=1,b=1;
+    // while (a<=5) {
+    //     b=1;
+    //     while (b<=a) {
+    //         document.write(a);
+    //         b++;
+    //     }
+    //     document.write("<br>");
+    //     a++;
+    // }
 }
 
 

@@ -1,0 +1,90 @@
+/*1*/
+
+.box{
+    height: 200px;
+    width: 500px;
+    background-color: blue;
+}
+.box:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/* 2 */
+
+.box-2{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    animation-duration: 10s;
+    border-radius: 100%;
+    animation-name: moveFade;
+    animation-timing-function: linear;
+}
+@keyframes moveFade{
+    0%{
+        transform: translate(300px);
+    }
+    50%{
+        transform: translate(600px);
+        height: 150px;
+        width: 150px;
+    }
+    100%{
+        transform: translate(900px);
+    }
+}
+
+/* 3 */
+.box-3{
+    height: 100px;
+    width: 100px;
+    font-size: 5rem;
+    background-color: purple;
+    animation-name: counter;
+    animation-duration: 10s;
+    content: counter(counter);
+    color: white;
+
+}
+@keyframes counter{
+    0%{
+        background-color: green;
+        counter-increment: counter 1;
+    }
+    10%{
+        counter-increment: counter 1;
+    }
+    20%{
+        counter-increment: counter 2;
+    }
+    30%{
+        counter-increment: counter 3;
+    }
+    40%{
+        
+        counter-increment: counter 4;
+    }
+    50%{
+        
+        counter-increment: counter 5;
+    }
+    60%{
+        
+        counter-increment: counter 6;
+    }
+    70%{
+        
+        counter-increment: counter 7;
+    }
+    80%{
+        
+        counter-increment: counter 8;
+    }
+    90%{   
+        counter-increment: counter 9; 
+    }
+    100%{
+        counter-increment: counter 10;
+    }
+}

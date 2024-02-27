@@ -1,0 +1,35 @@
+body{
+    background-color: orange;
+}
+.box-main{
+     display: flex;
+    justify-content: space-around;
+}
+.main{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    
+}
+.box{
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    padding: 10px; 
+}
+img{
+    border-radius: 10px;
+    height: 100%;
+}
+h6{
+    color: orange;
+}
+
+.main:hover{
+    height: 350px;
+    width: 350px;
+    transform: scale(1.1);
+    transition: 1s;
+}
+

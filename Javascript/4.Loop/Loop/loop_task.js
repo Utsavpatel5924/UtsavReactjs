@@ -53,25 +53,18 @@
 }
 //6
 {
-    let a=5;
-    let n=1;
-    while (a>=1) {
-       n=a*n;
-        console.log(a);
-        a--;
-    }
-    console.log("ans=",n);
-}//
+    // let a=5;
+    // let n=1;
+    // while (a>=1) {
+    //    n=a*n;
+    //     console.log(a);
+    //     a--;
+    // }
+    // console.log("ans=",n);
+}
 
-//7
-// {
-//     let a,b=5;
-//     let c=0;
-//     for(a=-b;a<=b;a++){
-//        console.log(a);
-//     }
+7
 
-// }
 
 
 //9

@@ -1,0 +1,48 @@
+@media (min-width:576px){
+    .container{
+        max-width: 540px;
+    }
+   nav ul{
+    display: none;
+   }
+}
+@media (min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+    #contact{
+        display: block;
+    }
+    #contact #nav-items{
+        order:1;
+    }
+    #nav-items ul{
+        order:1;
+    }
+    nav ul{
+        display:none;
+    }
+}
+@media (min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+    .mobile-menu{
+        display: none;
+    }
+    #nav-items nav ul{
+        display: flex;
+    }
+    #nav-items #contact{
+        order:2;
+    }
+    #nav-items nav{
+        order:1;
+    }
+    #nav-items{
+        display: none !important;;
+    }
+    nav #list{
+        display: flex !important;
+    }
+}

@@ -13,8 +13,8 @@
 }
 
 .box {
-  border: 2px solid rgb(255, 89, 116);
-  background-color: rgb(255, 89, 116);
+  border: 2px solid white;
+  background-color: white;
   color: white;
 }
 
@@ -38,6 +38,6 @@
 }
 
 .box a {
-  color: rgb(255, 89, 116);
+  color: white;
   background-color: white;
 }/*# sourceMappingURL=main.css.map */
